@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+pandas
+plotly
+matplotlib
+requests
+PyPDF2
+langchain
+google-generativeai
+python-docx
