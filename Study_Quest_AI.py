@@ -11,7 +11,7 @@ import os
 if "api_keys" not in st.session_state:
     st.session_state["api_keys"] = {}
 
-is_streamlit_deployed = False  # Set this to True if deployed on Streamlit Cloud
+is_streamlit_deployed = True  # Set this to True if deployed on Streamlit Cloud
 
 if is_streamlit_deployed:
     st.session_state["api_keys"]["GOOGLE_GEN_AI_API_KEY"] = st.secrets["GOOGLE_GEN_AI_API_KEY"]
